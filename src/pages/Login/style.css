@@ -1,0 +1,48 @@
+.login-wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: #222;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+input{
+    outline: none;
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    border: 0;
+}
+
+button{
+    background: rgb(77, 247, 43);
+    border: 0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    margin: auto;
+    font-family: 'Courgette', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.create-account{
+    color: white;
+    text-decoration: none;
+    float: right;
+}
+
+.create-account:hover{
+text-decoration: underline;
+}
